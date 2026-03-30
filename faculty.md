@@ -1,9 +1,9 @@
 ---
-title: Faculty
+title: Team
 layout: default
 nav_order: 2
-description: "Faculty"
-permalink: /faculty.html
+description: "Team"
+permalink: /team.html
 ---
 
 <style>
@@ -40,37 +40,7 @@ permalink: /faculty.html
 </style>
 
 
-# Faculty
-
-Our teaching team brings international diversity and strong industry expertise to the classroom. Many of our lecturers are actively involved in the industry, working part-time alongside their teaching roles. This keeps our curriculum closely aligned with real-world developments and the latest tools in data science and AI. At the same time, most faculty members also hold PhDs and contribute to academic research, ensuring a solid foundation in theory. We maintain high standards to challenge and prepare students for careers at the cutting edge of the field.
-
-<div class="filter-container">
-    <label for="expertise-filter" class="filter-label">Filter by expertise:</label>
-    <select id="expertise-filter" class="filter-select" onchange="filterFaculty()">
-    <option value="all">All</option>
-    <option value="ai">Artificial Intelligence</option>
-    <option value="business">Business & Digital Transformation</option>
-    <option value="compute">Cloud & Compute Systems</option>
-    <option value="cv">Computer Vision</option>
-    <option value="control">Control Systems</option>
-    <option value="data-eng">Data Engineering</option>
-    <option value="ds">Data Science</option>
-    <option value="dl">Deep Learning</option>
-    <option value="mlops">Deployment & MLOps</option>
-    <option value="ethics">Ethics, Philosophy & Society</option>
-    <option value="games">Games</option>
-    <option value="gen-ai">Generative AI</option>
-    <option value="responsible-ai">Human-Centered & Responsible AI</option>
-    <option value="ml">Machine Learning</option>
-    <option value="nlp">Natural Language Processing</option>
-    <option value="project">Project Management & Innovation</option>
-    <option value="rl">Reinforcement Learning</option>
-    <option value="research">Research Methods</option>
-    <option value="robotics">Robotics</option>
-    </select>
-</div>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
+# Team
 
 <!-- Dean -->
 <div style="flex: 0 1 250px; text-align: center;" data-expertise="ai,compute,ds,dl,mlops,gen-ai,ml,rl,robotics">
