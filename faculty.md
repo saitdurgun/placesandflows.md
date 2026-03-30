@@ -26,6 +26,7 @@ nav_order: 4
     height: 130px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: center top;
     margin-bottom: 10px;
   }
 
