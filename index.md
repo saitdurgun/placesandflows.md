@@ -13,7 +13,7 @@ Our projects are driven by both scientific curiosity and practical needs from in
 
 ## Contact
 
-**Email:** [experiencelab@buas.nl](mailto:experiencelab@buas.nl)
+**Email:** [experiencelab@buas.nl](mailto:placesandflows@buas.nl)
 
 **Address:** Mgr. Hopmansstraat 2 \| Frontier Building \| 4817 JS Breda \| The Netherlands
 
