@@ -60,21 +60,9 @@ Meet the people behind the Places & Flows Lab.
   </div>
 
   <div class="team-card">
-    <img src="assets/images/team/kevin.jpg" alt="Kevin Vermeulen">
-    <h3>Kevin Vermeulen</h3>
-    <p>Lecturer</p>
-  </div>
-
-  <div class="team-card">
     <img src="assets/images/team/paul.jpeg" alt="Paul van de Coevering">
     <h3>Paul van de Coevering</h3>
     <p>Professor of Urban Intelligence</p>
-  </div>
-
-  <div class="team-card">
-    <img src="assets/images/team/maciej.jpg" alt="Maciej Czerniak">
-    <h3>Maciej Czerniak</h3>
-    <p>Developer</p>
   </div>
 
   <div class="team-card">
@@ -87,6 +75,18 @@ Meet the people behind the Places & Flows Lab.
     <img src="assets/images/team/sait.jpg" alt="Sait Durgun">
     <h3>Sait Durgun</h3>
     <p>Researcher</p>
+  </div>
+
+  <div class="team-card">
+    <img src="assets/images/team/kevin.jpg" alt="Kevin Vermeulen">
+    <h3>Kevin Vermeulen</h3>
+    <p>Lecturer</p>
+  </div>
+
+  <div class="team-card">
+    <img src="assets/images/team/maciej.jpg" alt="Maciej Czerniak">
+    <h3>Maciej Czerniak</h3>
+    <p>Developer</p>
   </div>
 
 </div>
