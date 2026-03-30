@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: Places & Flows Lab
+description: Where People, Place and Data Come Together
+remote_theme: just-the-docs/just-the-docs@v0.10.0
 
-url: https://just-the-docs.github.io
+url: "https://saitdurgun.github.io"
+baseurl: "/placesandflows.md"
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+logo: "/assets/images/logo_buas.png"
