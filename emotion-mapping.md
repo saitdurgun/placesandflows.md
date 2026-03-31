@@ -18,7 +18,10 @@ In the Places & Flows Lab, we bring technology into the field to capture how peo
 
 ## Shimmer GSR+
 
-A wearable wrist device with finger sensors that records skin conductance to track emotional arousal. Combined with GPS data and our Tangible Landscape, we create **emotion maps** showing where people feel tense, excited, or relaxed.
+<div style="display: flex; gap: 20px; align-items: center; margin: 20px 0;">
+  <img src="assets/images/shimmer.png" alt="Shimmer GSR+" style="width: 30%; border-radius: 8px;">
+  <p>A wearable wrist device with finger sensors that records skin conductance to track emotional arousal. Combined with GPS data and our Tangible Landscape, we create <strong>emotion maps</strong> showing where people feel tense, excited, or relaxed.</p>
+</div>
 
 ---
 
