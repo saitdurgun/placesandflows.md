@@ -35,7 +35,6 @@ Our projects are driven by both scientific curiosity and practical needs from in
   <div>
     <p><strong>Email:</strong> <a href="mailto:placesandflows@buas.nl">placesandflows@buas.nl</a></p>
     <p><strong>Address:</strong> Mgr. Hopmansstraat 2 | Frontier Building | 4817 JS Breda | The Netherlands</p>
-    <p><strong>Head of the Places & Flows Lab:</strong> Dr. Ondrej Mitas</p>
   </div>
   <img src="assets/images/frontier.png" alt="Frontier Building" style="width: 40%; border-radius: 8px;">
 </div>
