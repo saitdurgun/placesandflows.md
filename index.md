@@ -3,7 +3,16 @@ title: Home
 nav_order: 1
 ---
 
-<img src="assets/images/pf.png" alt="Places & Flows Lab" style="width:100%; border-radius:8px; margin-bottom:1.5rem;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; margin-bottom: 1.5rem;">
+  <iframe 
+    src="https://www.youtube.com/embed/LYq4iGLQFwI" 
+    title="Places & Flows Lab" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 The Places & Flows Lab is a cutting-edge facility where researchers, students, and partners explore spatial challenges with innovative geospatial tools. Central to the lab is the **Tangible Landscape**, an interactive physical–digital interface that links real models of landscapes with powerful GIS software such as QGIS and GRASS GIS.
 
