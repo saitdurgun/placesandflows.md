@@ -3,9 +3,12 @@ title: Home
 nav_order: 1
 ---
 
+# Welcome to the Places & Flows Lab
+**Where People, Place and Data Come Together**
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; margin-bottom: 1.5rem;">
   <iframe 
-    src="https://www.youtube.com/embed/LYq4iGLQFwI" 
+    src="https://www.youtube.com/embed/LYq4iGLQFwI?autoplay=1&mute=1&loop=1&playlist=LYq4iGLQFwI" 
     title="Places & Flows Lab" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -20,12 +23,19 @@ Our projects are driven by both scientific curiosity and practical needs from in
 
 ---
 
+> *"Better places emerge when data becomes tangible"*
+>
+> — Dr. Ondrej Mitas, Head of the Places & Flows Lab
+
+---
+
 ## Contact
 
 <div style="display: flex; gap: 20px; align-items: center; margin: 20px 0;">
   <div>
     <p><strong>Email:</strong> <a href="mailto:placesandflows@buas.nl">placesandflows@buas.nl</a></p>
     <p><strong>Address:</strong> Mgr. Hopmansstraat 2 | Frontier Building | 4817 JS Breda | The Netherlands</p>
-      </div>
+    <p><strong>Head of the Places & Flows Lab:</strong> Dr. Ondrej Mitas</p>
+  </div>
   <img src="assets/images/frontier.png" alt="Frontier Building" style="width: 40%; border-radius: 8px;">
 </div>
