@@ -95,7 +95,7 @@ Meet the people behind the Places & Flows Lab.
   </div>
 
   <div class="team-card">
-    <img src="assets/images/team/shimon2.jpg" alt="Szymon Chirowski">
+    <img src="assets/images/team/shimon.jpg" alt="Szymon Chirowski">
     <h3>Szymon Chirowski</h3>
     <p>Developer</p>
     <p><a href="mailto:242621@buas.nl">242621@buas.nl</a></p>
