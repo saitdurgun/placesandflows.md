@@ -23,9 +23,15 @@ Our projects are driven by both scientific curiosity and practical needs from in
 
 ---
 
-> *"Better places emerge when data becomes tangible"*
->
-> — Dr. Ondrej Mitas, Head of the Places & Flows Lab
+<div style="display: flex; gap: 20px; align-items: center; margin: 30px 0;">
+  <img src="assets/images/team/ondrej.jpg" alt="Dr. Ondrej Mitas" style="width: 180px; border-radius: 8px; object-fit: cover;">
+  <div>
+    <p style="font-size: 1.4em; font-style: italic; color: #333; border-left: 4px solid #e87722; padding-left: 15px; margin: 10px 0;">
+      "Better places emerge when data becomes tangible"
+    </p>
+    <p><strong>Dr. Ondrej Mitas</strong><br>Head of the Places & Flows Lab</p>
+  </div>
+</div>
 
 ---
 
