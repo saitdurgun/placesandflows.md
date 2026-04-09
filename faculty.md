@@ -101,6 +101,13 @@ Meet the people behind the Places & Flows Lab.
     <p><a href="mailto:242621@buas.nl">242621@buas.nl</a></p>
   </div>
 
+  <div class="team-card">
+    <img src="assets/images/team/lars.jpg" alt="Lars Peggeman">
+    <h3>Lars Peggeman</h3>
+    <p>Developer</p>
+    <p><a href="mailto:241863@buas.nl">241863@buas.nl</a></p>
+  </div>
+
 </div>
 
 ---
