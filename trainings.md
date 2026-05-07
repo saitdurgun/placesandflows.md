@@ -27,7 +27,7 @@ The Places & Flows Lab offers training materials for researchers, students, and 
 ### Intermediate GIS Training
 
 <div style="display: flex; gap: 30px; align-items: flex-start; margin: 20px 0;">
-  <img src="assets/Intermediate_GIS_training.pdf" alt="Intermediate GIS Training Flyer" style="width: 40%; border-radius: 8px; border: 1px solid #e0e0e0;">
+  <img src="assets/images/flyer_intermediate_training.png" alt="Intermediate GIS Training Flyer" style="width: 40%; border-radius: 8px; border: 1px solid #e0e0e0;">
   <div style="display: flex; flex-direction: column; justify-content: center; gap: 15px;">
     <p><strong>Intermediate GIS Training Manual</strong></p>
     <p>Training material for those with basic GIS knowledge looking to expand their skills in more advanced spatial analysis and data workflows in QGIS.</p>
