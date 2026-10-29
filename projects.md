@@ -161,6 +161,46 @@ Because the simulation is interactive, stakeholders didn’t just watch a presen
   </div>
 </details>
 
+<details class="project">
+  <summary>
+    <img class="project-image" src="{{ '/assets/images/copenhagen.jpg' | relative_url }}" alt="Overtourism workshop session in Copenhagen">
+    <div class="project-intro">
+      <h3>Putting overtourism on the map</h3>
+      <p class="project-meta">Comparing four ways to bring stakeholders together</p>
+      <p>How do you get people with different interests to agree on a plan against overtourism? We ran a series of workshops with tourism experts to compare four facilitation methods, from conventional brainstorming to our Tangible Landscape. The tangible version led to the most creative ideas and the most engaging discussions.</p>
+      <p><span class="project-toggle"></span></p>
+    </div>
+  </summary>
+  <div class="project-body" markdown="1">
+
+#### The challenge
+Tackling overtourism means bringing together people with different and sometimes conflicting perspectives, and finding strategies they can all accept. There is no shortage of consultants to guide these sessions, yet there is little visible progress on the ground. A new way of facilitating these conversations is needed.
+
+Play could be part of the answer. Play creates positive emotions, encourages connection and helps people let their guard down. We wanted to find out which approach works best in practice.
+
+#### What we tested
+We compared four facilitation methods:
+
+- **Conventional facilitation**, using a rapid prototyping approach
+- **Lego Serious Play**, where participants build their ideas with Lego
+- **Tangible Landscape**, where data is projected onto a physical model that participants can change by hand
+- **AugGIS**, where participants change a map with hand gestures in augmented reality
+
+Each method was tested in several 45-minute workshops with groups of five participants from tourism research and practice. Every group got the same challenge: a map of a city showing attractions that need more visitors, attractions that need fewer, and how tourists move between them. With the help of a trained facilitator, the group had to design a workable intervention to reduce overtourism.
+
+<img class="project-figure" src="{{ '/assets/images/copenhagen2.jpeg' | relative_url }}" alt="Participants discussing tourist flows during an overtourism workshop in Copenhagen">
+
+#### How we measured it
+We observed how participants spoke and took turns, and how many ideas and alternative perspectives they came up with. We also looked at the emotions they showed and how those spread through the group. Afterwards, participants rated how much they enjoyed the session and whether they would share and implement the ideas.
+
+#### What we found
+The Tangible Landscape stood out. Groups working around the physical model came up with more creative ideas and had more engaging discussions than with the other methods. Seeing the city and its tourist flows on the table gave everyone the same picture to point at, question and build on.
+
+*The research was carried out by Ondrej Mitas, Alinda Kokkinou, Wilco Boode and Jeroen Klijs.*
+
+  </div>
+</details>
+
 <!--
   To add a new project: copy everything from <details class="project"> to </details>,
   paste it below, and change the image path, title, meta line, intro and body text.
