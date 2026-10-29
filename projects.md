@@ -21,12 +21,19 @@ nav_order: 5
   .project > summary::-webkit-details-marker { display: none; }
   .project > summary:focus-visible { outline: 2px solid #ec6d1b; outline-offset: -2px; }
   .project-image {
-    flex: 0 0 280px;
-    width: 280px;
-    aspect-ratio: 16 / 9;
+    flex: 0 0 45%;
+    width: 45%;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
     border-radius: 4px;
     margin: 0;
+  }
+  /* When opened: photo goes full width above the text, uncropped */
+  .project[open] > summary { flex-direction: column; }
+  .project[open] .project-image {
+    flex-basis: auto;
+    width: 100%;
+    aspect-ratio: auto;
   }
   .project-intro h3 { margin-top: 0; }
   .project-meta { margin: 0.25rem 0 0.75rem; opacity: 0.75; font-size: 0.9em; }
@@ -35,9 +42,16 @@ nav_order: 5
   .project-toggle::after { content: "Read more ▾"; }
   .project[open] .project-toggle::after { content: "Show less ▴"; }
   .project-body { padding: 0 1rem 1rem; }
+  .project-body h4 {
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: none;
+    letter-spacing: normal;
+    margin: 1.5rem 0 0.5rem;
+  }
   @media (max-width: 640px) {
     .project > summary { flex-direction: column; }
-    .project-image { flex-basis: auto; width: 100%; }
+    .project-image { flex-basis: auto; width: 100%; aspect-ratio: 16 / 9; }
   }
 </style>
 
