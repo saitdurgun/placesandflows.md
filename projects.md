@@ -93,6 +93,32 @@ Do you have a geospatial challenge? You bring the question, and we sit down toge
   </div>
 </details>
 
+<details class="project">
+  <summary>
+    <img class="project-image" src="{{ '/assets/images/emotion_map.jpg' | relative_url }}" alt="Emotion map of Fort Sabina projected onto the Tangible Landscape">
+    <div class="project-intro">
+      <h3>Mapping how visitors feel at Fort Sabina</h3>
+      <p class="project-meta">Emotion mapping at a heritage site</p>
+      <p>People do not just move through places, they feel them. At Fort Sabina, we measured how visitors felt while exploring the fortress and its surroundings, and turned those measurements into emotion maps that show where people felt tense, excited or relaxed.</p>
+      <p><span class="project-toggle"></span></p>
+    </div>
+  </summary>
+  <div class="project-body" markdown="1">
+
+#### The challenge
+A walking route or a historic site can evoke moments of calm, excitement, stress or awe. For heritage managers, knowing where these moments happen is key to creating a visit that is not only efficient, but also meaningful and memorable. Visitor counts and surveys show where people go, but not how they feel along the way.
+
+#### How we did it
+Visitors wore the Shimmer GSR+, a wearable wrist device with finger sensors and a gold-standard tool for measuring skin conductance. It records subtle changes in sweating of the skin, one of the most sensitive indicators of emotional arousal. We combined these signals with GPS data, so every moment could be linked to a place on the site.
+
+We then projected the results onto a physical model of the fortress with our Tangible Landscape. This made it easy to see at a glance where visitors felt tense, excited or relaxed.
+
+#### What it’s used for
+The emotion maps help heritage managers understand how visitors respond to different spaces. They support decisions on redesigning visitor flows and improving the overall experience of the site.
+
+  </div>
+</details>
+
 <!--
   To add a new project: copy everything from <details class="project"> to </details>,
   paste it below, and change the image path, title, meta line, intro and body text.
