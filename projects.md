@@ -130,6 +130,37 @@ The emotion maps help heritage managers understand how visitors respond to diffe
   </div>
 </details>
 
+<details class="project">
+  <summary>
+    <img class="project-image" src="{{ '/assets/images/cng.jpeg' | relative_url }}" alt="Live traffic simulation projected onto a 3D-printed model of the Wilhelminastraat in Breda">
+    <div class="project-intro">
+      <h3>Last-mile deliveries &amp; traffic jams</h3>
+      <p class="project-meta">Part of LILS (Low Impact in Last-mile Logistics)</p>
+      <p>What happens when a delivery truck stops in the street to unload? As part of LILS, our lab built a live traffic simulation on a 3D-printed model of the Wilhelminastraat in Breda. Stakeholders could place a truck on the street and watch a traffic jam build up and clear, right in front of them.</p>
+      <p><span class="project-toggle"></span></p>
+    </div>
+  </summary>
+  <div class="project-body" markdown="1">
+
+#### The challenge
+Last-mile deliveries keep shops and homes supplied, but they also put pressure on city streets. When a truck stops on the road to unload, the cars behind it have to wait. Everyone knows this happens, but it is hard to grasp how quickly a jam builds up, how long it lasts and what a different street layout could change. Numbers in a report rarely make that clear.
+
+#### What we built
+We 3D-printed the Wilhelminastraat and the streets around it, and projected a live traffic simulation onto the model. Cars drive along the streets and the traffic lights change in real time. The traffic is based on real data we collected on the street. It isn’t a live feed, but it means the traffic on the model flows the way it does on the actual street.
+
+#### How it works
+Visitors place a model truck on the street, as if it has parked to make a delivery. The simulation responds immediately: the cars behind the truck stop, and a queue starts to grow. When the truck is removed, the queue slowly clears.
+
+This shows two things that are hard to see in a report: how fast a jam builds up, and how long it takes to resolve once the truck has gone.
+
+#### Around the table
+Because the simulation is interactive, stakeholders didn’t just watch a presentation. They gathered around the table, placed the truck themselves and saw the problem happen live. That shared picture made it easier to understand the impact of a single delivery stop, and to discuss possible solutions together.
+
+*The simulation runs on CNG, our new platform that makes tangible landscapes easier to set up and use.*
+
+  </div>
+</details>
+
 <!--
   To add a new project: copy everything from <details class="project"> to </details>,
   paste it below, and change the image path, title, meta line, intro and body text.
