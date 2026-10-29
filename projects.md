@@ -42,6 +42,10 @@ nav_order: 5
   .project-toggle::after { content: "Read more ▾"; }
   .project[open] .project-toggle::after { content: "Show less ▴"; }
   .project-body { padding: 0 1rem 1rem; }
+  .project-figure { display: block; width: 100%; border-radius: 4px; margin: 1rem 0; }
+  .project-media-row { display: flex; gap: 1.25rem; align-items: center; margin: 0.5rem 0 1rem; }
+  .project-media-row img { flex: 0 0 30%; width: 30%; border-radius: 4px; margin: 0; }
+  .project-media-row p { margin: 0; }
   .project-body h4 {
     font-weight: 700;
     font-size: 1em !important;
@@ -53,6 +57,8 @@ nav_order: 5
   @media (max-width: 640px) {
     .project > summary { flex-direction: column; }
     .project-image { flex-basis: auto; width: 100%; aspect-ratio: 16 / 9; }
+    .project-media-row { flex-direction: column; align-items: flex-start; }
+    .project-media-row img { width: 60%; flex-basis: auto; }
   }
 </style>
 
@@ -108,8 +114,13 @@ Do you have a geospatial challenge? You bring the question, and we sit down toge
 #### The challenge
 A walking route or a historic site can evoke moments of calm, excitement, stress or awe. For heritage managers, knowing where these moments happen is key to creating a visit that is not only efficient, but also meaningful and memorable. Visitor counts and surveys show where people go, but not how they feel along the way.
 
+<img class="project-figure" src="{{ '/assets/images/emotion_map2.jpg' | relative_url }}" alt="Aerial view of Fort Sabina and its moat">
+
 #### How we did it
-Visitors wore the Shimmer GSR+, a wearable wrist device with finger sensors and a gold-standard tool for measuring skin conductance. It records subtle changes in sweating of the skin, one of the most sensitive indicators of emotional arousal. We combined these signals with GPS data, so every moment could be linked to a place on the site.
+<div class="project-media-row">
+  <img src="{{ '/assets/images/shimmer.png' | relative_url }}" alt="Shimmer GSR+ device worn on the wrist, with sensors on two fingers">
+  <p>Visitors wore the Shimmer GSR+, a wearable wrist device with finger sensors and a gold-standard tool for measuring skin conductance. It records subtle changes in sweating of the skin, one of the most sensitive indicators of emotional arousal. We combined these signals with GPS data, so every moment could be linked to a place on the site.</p>
+</div>
 
 We then projected the results onto a physical model of the fortress with our Tangible Landscape. This made it easy to see at a glance where visitors felt tense, excited or relaxed.
 
