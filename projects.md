@@ -44,7 +44,8 @@ nav_order: 5
   .project-body { padding: 0 1rem 1rem; }
   .project-body h4 {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1em !important;
+    line-height: inherit;
     text-transform: none;
     letter-spacing: normal;
     margin: 1.5rem 0 0.5rem;
@@ -60,8 +61,6 @@ nav_order: 5
 Our projects sit at the intersection of people, place, and data. We work with industry partners, heritage organizations, municipalities, and tourism stakeholders to understand and improve how people experience places.
 
 ---
-
-## Our Projects
 
 <details class="project">
   <summary>
