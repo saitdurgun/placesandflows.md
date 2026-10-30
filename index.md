@@ -8,7 +8,7 @@ nav_order: 1
 # Welcome to the Places & Flows Lab
 {: style="text-align: center;" }
 
-**Where we transform complex spatial data into tangible insights**
+**Where we transform complex geo-spatial data into tangible insights**
 {: style="text-align: center;" }
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; margin-bottom: 1.5rem;">
