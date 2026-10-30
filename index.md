@@ -6,7 +6,10 @@ nav_order: 1
 <img src="{{ '/assets/images/Places%26flowlab_logo.jpg' | relative_url }}" alt="Places & Flows Lab logo" style="display: block; width: 100%; max-width: 260px; height: auto; margin: 0 auto 1.5rem;">
 
 # Welcome to the Places & Flows Lab
+{: style="text-align: center;" }
+
 **Where we transform complex spatial data into tangible insights**
+{: style="text-align: center;" }
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; margin-bottom: 1.5rem;">
   <iframe 
