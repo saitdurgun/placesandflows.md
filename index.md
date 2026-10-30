@@ -3,7 +3,7 @@ title: Home
 nav_order: 1
 ---
 
-<img src="{{ '/assets/images/Places%26flowlab_logo.jpg' | relative_url }}" alt="Places & Flows Lab logo" style="display: block; width: 100%; max-width: 260px; height: auto; margin: 0 0 1.5rem;">
+<img src="{{ '/assets/images/Places%26flowlab_logo.jpg' | relative_url }}" alt="Places & Flows Lab logo" style="display: block; width: 100%; max-width: 260px; height: auto; margin: 0 auto 1.5rem;">
 
 # Welcome to the Places & Flows Lab
 **Where we transform complex spatial data into tangible insights**
