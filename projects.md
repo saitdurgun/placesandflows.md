@@ -237,7 +237,7 @@ Arousal shows how strongly something is felt, not whether the feeling is positiv
 #### A city you can hold in your hand
 We 3D-printed the city centre with the tour route on it in colour: **blue** for the lowest arousal, then **green**, **yellow** and **red** for the highest. The murals stand out in **black**.
 
-<img class="project-figure" src="{{ '/assets/images/top_view_blindwall_model.jpg' | relative_url }}" alt="Top view of the 3D-printed model of Breda city centre, with the tour route coloured from blue to red" style="max-width: 420px; margin-left: auto; margin-right: auto;">
+<img class="project-figure" src="{{ '/assets/images/blindwall_in_hand.jpg' | relative_url }}" alt="Holding the 3D-printed model of Breda city centre, with the tour route coloured from blue to red" style="width: auto; max-width: 100%; max-height: 560px; margin-left: auto; margin-right: auto;">
 
 #### Why a model in your hand
 On an aerial photo or a 2D map, the murals are hard to pick out between rooftops, streets and parking spaces. Seen from the same angle on the model, you know right away where each wall is.
