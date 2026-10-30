@@ -144,7 +144,7 @@ The emotion maps help heritage managers understand how visitors respond to diffe
 
 <details class="project">
   <summary>
-    <img class="project-image" src="{{ '/assets/images/cng.jpeg' | relative_url }}" alt="Live traffic simulation projected onto a 3D-printed model of the Wilhelminastraat in Breda">
+    <img class="project-image" src="{{ '/assets/images/cng_zoomed_in.jpeg' | relative_url }}" alt="Close-up of the live traffic simulation projected onto the 3D-printed model of the Wilhelminastraat in Breda">
     <div class="project-intro">
       <h3>Last-mile deliveries &amp; traffic jams</h3>
       <p class="project-meta">Part of LILS (Low Impact in Last-mile Logistics)</p>
@@ -167,6 +167,8 @@ This shows two things that are hard to see in a report: how fast a jam builds up
 
 #### Around the table
 Because the simulation is interactive, stakeholders didn’t just watch a presentation. They gathered around the table, placed the truck themselves and saw the problem happen live. That shared picture made it easier to understand the impact of a single delivery stop, and to discuss possible solutions together.
+
+<img class="project-figure" src="{{ '/assets/images/cng.jpeg' | relative_url }}" alt="Live traffic simulation projected onto a 3D-printed model of the Wilhelminastraat in Breda">
 
 *The simulation runs on CNG, our new platform that makes tangible landscapes easier to set up and use.*
 
