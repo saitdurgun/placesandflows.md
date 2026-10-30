@@ -46,6 +46,10 @@ nav_order: 5
   .project-media-row { display: flex; gap: 1.25rem; align-items: center; margin: 0.5rem 0 1rem; }
   .project-media-row img { flex: 0 0 30%; width: 30%; border-radius: 4px; margin: 0; }
   .project-media-row p { margin: 0; }
+  .project-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+  .project-compare figure { margin: 0; }
+  .project-compare img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; }
+  .project-compare figcaption { font-size: 0.85em; opacity: 0.75; margin-top: 0.35rem; }
   .project-body h4 {
     font-weight: 700;
     font-size: 1em !important;
@@ -59,6 +63,7 @@ nav_order: 5
     .project-image { flex-basis: auto; width: 100%; aspect-ratio: 16 / 9; }
     .project-media-row { flex-direction: column; align-items: flex-start; }
     .project-media-row img { width: 60%; flex-basis: auto; }
+    .project-compare { grid-template-columns: 1fr; }
   }
 </style>
 
@@ -197,6 +202,60 @@ We observed how participants spoke and took turns, and how many ideas and altern
 The Tangible Landscape stood out. Groups working around the physical model came up with more creative ideas and had more engaging discussions than with the other methods. Seeing the city and its tourist flows on the table gave everyone the same picture to point at, question and build on.
 
 *The research was carried out by Ondrej Mitas, Alinda Kokkinou, Wilco Boode and Jeroen Klijs.*
+
+  </div>
+</details>
+
+<details class="project">
+  <summary>
+    <img class="project-image" src="{{ '/assets/images/mural_photo.webp' | relative_url }}" alt="Visitors on a guided tour walking towards a Blind Walls mural in Breda">
+    <div class="project-intro">
+      <h3>Feeling Breda’s Blind Walls</h3>
+      <p class="project-meta">Emotion mapping on a Blind Walls Gallery tour</p>
+      <p>What does a city tour feel like? We followed visitors on a guided tour of Breda’s street art, measured how they felt along the way, and turned it into a 3D-printed city you can hold in your hands.</p>
+      <p><span class="project-toggle"></span></p>
+    </div>
+  </summary>
+  <div class="project-body" markdown="1">
+
+#### The Blind Walls Gallery
+Blind Walls Gallery is an open-air museum in Breda. Artists paint large murals on the city’s bare walls, each inspired by a local story, and visitors discover them on guided tours.
+
+#### What our lab adds
+A tour is more than a route from wall to wall. It is an emotional journey, with moments of surprise, excitement and calm. That journey is usually invisible: visitor counts and reviews show where people went, not how they felt on the way.
+
+Our lab makes that journey visible. Imagine holding the city in your hands and seeing, street by street, where the tour gripped visitors the most and where their attention dropped.
+
+#### How we measured it
+<div class="project-media-row">
+  <img src="{{ '/assets/images/shimmer.png' | relative_url }}" alt="Shimmer GSR+ device worn on the wrist, with sensors on two fingers">
+  <p>Visitors on the tour wore the Shimmer GSR+, a wearable wrist device with finger sensors that measures skin conductance. Tiny changes in sweating of the skin are one of the most sensitive indicators of emotional arousal. Combined with GPS, every moment of the tour is linked to a place in the city.</p>
+</div>
+
+Arousal shows how strongly something is felt, not whether the feeling is positive or negative. A peak can mean excitement, surprise or awe.
+
+#### A city you can hold in your hand
+We 3D-printed the city centre with the tour route on it in colour: **blue** for the lowest arousal, then **green**, **yellow** and **red** for the highest. The murals stand out in **black**.
+
+<img class="project-figure" src="{{ '/assets/images/top_view_blindwall_model.jpg' | relative_url }}" alt="Top view of the 3D-printed model of Breda city centre, with the tour route coloured from blue to red" style="max-width: 420px; margin-left: auto; margin-right: auto;">
+
+#### Why a model in your hand
+On an aerial photo or a 2D map, the murals are hard to pick out between rooftops, streets and parking spaces. Seen from the same angle on the model, you know right away where each wall is.
+
+<div class="project-compare">
+  <figure>
+    <img src="{{ '/assets/images/aerial_photo_blindwalls.png' | relative_url }}" alt="Aerial view of the Molsparking area in Breda, where many Blind Walls murals are located">
+    <figcaption>Aerial photo (imagery © Google)</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/3d-model-same-perspective-withaerial_photo.jpg' | relative_url }}" alt="The same area on the 3D-printed model, with the murals in black and the route coloured by emotional arousal">
+    <figcaption>The same area on our 3D-printed model</figcaption>
+  </figure>
+</div>
+
+On the model, you see where each wall is, how it relates to the streets around it, and where visitors’ emotions rose and fell. The 3D context makes the data easy to grasp, even for people who never work with maps.
+
+That is what the Places &amp; Flows Lab offers: turning how people feel about a place into something you can see, hold and discuss.
 
   </div>
 </details>
