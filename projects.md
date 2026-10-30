@@ -34,6 +34,8 @@ nav_order: 5
     flex-basis: auto;
     width: 100%;
     aspect-ratio: auto;
+    max-height: 600px;
+    object-fit: contain;
   }
   .project-intro h3 { margin-top: 0; }
   .project-meta { margin: 0.25rem 0 0.75rem; opacity: 0.75; font-size: 0.9em; }
@@ -46,6 +48,11 @@ nav_order: 5
   .project-media-row { display: flex; gap: 1.25rem; align-items: center; margin: 0.5rem 0 1rem; }
   .project-media-row img { flex: 0 0 30%; width: 30%; border-radius: 4px; margin: 0; }
   .project-media-row p { margin: 0; }
+  .arousal-blue { color: #1f5fd1; }
+  .arousal-green { color: #1e9e4a; }
+  .arousal-yellow { color: #c99700; }
+  .arousal-red { color: #d62828; }
+  .arousal-black { color: #000; }
   .project-compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
   .project-compare figure { margin: 0; }
   .project-compare img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; }
@@ -208,7 +215,7 @@ The Tangible Landscape stood out. Groups working around the physical model came 
 
 <details class="project">
   <summary>
-    <img class="project-image" src="{{ '/assets/images/mural_photo.webp' | relative_url }}" alt="Visitors on a guided tour walking towards a Blind Walls mural in Breda">
+    <img class="project-image" src="{{ '/assets/images/blindwall_in_hand.jpg' | relative_url }}" alt="Holding the 3D-printed model of Breda city centre, with the tour route coloured by visitors’ emotional arousal">
     <div class="project-intro">
       <h3>Feeling Breda’s Blind Walls</h3>
       <p class="project-meta">Emotion mapping on a Blind Walls Gallery tour</p>
@@ -220,6 +227,8 @@ The Tangible Landscape stood out. Groups working around the physical model came 
 
 #### The Blind Walls Gallery
 Blind Walls Gallery is an open-air museum in Breda. Artists paint large murals on the city’s bare walls, each inspired by a local story, and visitors discover them on guided tours.
+
+<img class="project-figure" src="{{ '/assets/images/mural_photo.webp' | relative_url }}" alt="Visitors on a guided tour walking towards a Blind Walls mural in Breda">
 
 #### What our lab adds
 A tour is more than a route from wall to wall. It is an emotional journey, with moments of surprise, excitement and calm. That journey is usually invisible: visitor counts and reviews show where people went, not how they felt on the way.
@@ -235,9 +244,7 @@ Our lab makes that journey visible. Imagine holding the city in your hands and s
 Arousal shows how strongly something is felt, not whether the feeling is positive or negative. A peak can mean excitement, surprise or awe.
 
 #### A city you can hold in your hand
-We 3D-printed the city centre with the tour route on it in colour: **blue** for the lowest arousal, then **green**, **yellow** and **red** for the highest. The murals stand out in **black**.
-
-<img class="project-figure" src="{{ '/assets/images/blindwall_in_hand.jpg' | relative_url }}" alt="Holding the 3D-printed model of Breda city centre, with the tour route coloured from blue to red" style="width: auto; max-width: 100%; max-height: 560px; margin-left: auto; margin-right: auto;">
+We 3D-printed the city centre with the tour route on it in colour: <strong class="arousal-blue">blue</strong> for the lowest arousal, then <strong class="arousal-green">green</strong>, <strong class="arousal-yellow">yellow</strong> and <strong class="arousal-red">red</strong> for the highest. The murals stand out in <strong class="arousal-black">black</strong>.
 
 #### Why a model in your hand
 On an aerial photo or a 2D map, the murals are hard to pick out between rooftops, streets and parking spaces. Seen from the same angle on the model, you know right away where each wall is.
